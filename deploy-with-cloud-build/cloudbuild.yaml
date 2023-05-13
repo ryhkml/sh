@@ -1,0 +1,9 @@
+steps:
+  - name: "gcr.io/cloud-builders/docker"
+    entrypoint: "bash"
+    args:
+      - "-c"
+      - |
+        DOCKER_BUILDKIT=1 docker build -t ${_REPO}:${_TAG} .
+images:
+  - "${_REPO}:${_TAG}"
