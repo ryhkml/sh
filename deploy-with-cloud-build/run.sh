@@ -1,3 +1,5 @@
+#!/bin/bash
+
 set -ae
 
 source .env
