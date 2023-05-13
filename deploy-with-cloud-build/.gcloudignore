@@ -1,0 +1,13 @@
+# This is a configuration file used by the Google Cloud SDK's gcloud command-line
+# tool to specify files and directories that should be excluded when deploying or 
+# syncing files to Google Cloud Platform services
+
+.gcloudignore
+
+.git
+.gitkeep
+**/.gitkeep
+.gitignore
+
+# Ignore your file or directory goes here
+# ...
