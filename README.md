@@ -1,4 +1,4 @@
-##  Simple Shell Script for Automating the Build and Deployment
+##  Simple Execution Shell Script
 
 ### Usage
   1. Clone the repo
